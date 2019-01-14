@@ -1,5 +1,7 @@
 This is just a quick fix for enabling tap to click functionality to your Desktop.
-For using this, your system needs to have "xserver-xorg-input-synaptics" package installed. If your system dosen't have one installed, it can be done typing following command in your favourite Debian based Linux distribution like Debian, Ubuntu, KDE neon, etc.
+For using this, your system needs to have "xserver-xorg-input-synaptics" package installed.
+If your system dosen't have one installed, it can be done typing following command in your
+favourite Debian based Linux distribution like Debian, Ubuntu, KDE neon, etc.
 
 sudo apt install xserver-xorg-input-synaptics
 
@@ -11,4 +13,4 @@ synclient TapButton1=1 TapButton2=3 TapButton3=2 VertEdgeScroll=1
 
 
 Operating System used for testing: Ubuntu Mate with Openbox windowmanager
-If you are an openbox user like me, just paste the following command in your autostart configuration, so you don't need to execute it every time you login to the WM.
+If you are an openbox user like me, just paste the following command in your autostart configuration.
